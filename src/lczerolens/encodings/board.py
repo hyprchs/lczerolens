@@ -105,7 +105,7 @@ def board_to_config_tensor(
 
 
 def board_to_input_tensor(
-    last_board=chess.Board,
+    last_board: chess.Board,
     with_history: bool = True,
     input_encoding: InputEncoding = InputEncoding.INPUT_CLASSICAL_112_PLANE,
 ):
