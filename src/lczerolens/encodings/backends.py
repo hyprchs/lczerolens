@@ -3,7 +3,8 @@
 Notes
 ----
 The lczero bindings are not installed by default. You can install them by
-running `pip install lczero`.
+following the instructions at
+https://pypi.org/project/lczero-bindings/#:~:text=in%20build/release-,Python%20bindings,-Python%20bindings%20can.
 """
 
 import subprocess
