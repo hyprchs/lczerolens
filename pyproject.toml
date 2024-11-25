@@ -2,6 +2,9 @@
 line-length = 119
 target-version = "py39"
 
+[tool.ruff.lint]
+select = ["NPY201"]
+
 [tool.poetry]
 name = "lczerolens"
 version = "0.2.0-dev"
